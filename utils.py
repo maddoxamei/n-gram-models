@@ -222,7 +222,7 @@ def make_corpus(path, recursive, **kwargs):
 
 
 def print_metrics(likelihoods, token_counts: List[int], n, grams: Dict[int, Dict[str, int]], **kwargs):
-    """ Generate the vocabulary and frequency counts for particular n-gram (1-4) sequences for a given corpus
+    """ Calculate the average sentence log likelihood and overall model perplexity
     @param likelihoods: log probability of each sentence
     @param token_counts: number of tokens in each sentence
     @param n: length of n-gram
