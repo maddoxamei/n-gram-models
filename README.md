@@ -1,5 +1,4 @@
-# n-gram-models
-Title:Performance Analysis of N-gram Language Models
+# Performance Analysis of N-gram Language Models
 Updated 10/9/2022
 
 Introduction
@@ -15,10 +14,10 @@ Requirements
 Python libraries required:
 	os,nltk,string,glob,re,typing,collections,functools,math,json
 
-Training Set should be placed in a directory ..\data\TrainingSet\*\*
+Training Set should be placed in a directory ..\data\TrainingSet\
 	\TrainingSet\ should contain subfolders, which contain text files for each article.
 
-Test Set should be placed in adjacent directory ..\data\TestSet\*\*
+Test Set should be placed in adjacent directory ..\data\TestSet\
 	\TestSet\ should contain subfolders, which contain text files for each article.
 
 Make sure the TestSet directory can fit a .json containing ngram dictionaries.
